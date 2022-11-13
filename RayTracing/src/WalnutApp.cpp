@@ -29,15 +29,15 @@ public:
 		{
 			Sphere sphere;
 			sphere.Position = { 0.0f,0.0f,0.0f };
-			sphere.Radius = 0.5f;
+			sphere.Radius = 1.0f;
 			sphere.MaterialIndex = 0;
 			m_Scene.Spheres.push_back(sphere);
 		}
 		{
 			Sphere sphere;
-			sphere.Position = { 1.0f,0.0f,-5.0f };
-			sphere.Radius = 1.5f;
-			sphere.MaterialIndex = 0;
+			sphere.Position = { 0.0f,-101.0f,0.0f };
+			sphere.Radius = 100.0f;
+			sphere.MaterialIndex = 1;
 			m_Scene.Spheres.push_back(sphere);
 		}
 	}
